@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.GetLoc"
+        version   = "1.0.0">
+
+    <name>Get Location</name>
+
+    <description>
+        An application that shows your location.
+    </description>
+
+    <author href="derekknaggs.com" email="knad1_14@uni.worc.ac.uk">
+        Worcester University Bsc Computing
+    </author>
+
+    <preference name="permissions"                value="none"/>  
+
+    <gap:plugin name="org.apache.cordova.geolocation" />
+	
+	<access origin="*"/>
+</widget>
